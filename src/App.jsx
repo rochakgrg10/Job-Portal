@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootElement from "./components/common/RootElement";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Register from "./pages/Register";
 import PostJob from "./pages/PostJob";
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
           element: <Login />,
         },
         {
-          path: "signup",
-          element: <Signup />,
+          path: "register",
+          element: <Register />,
         },
         {
           path: "/postjob",

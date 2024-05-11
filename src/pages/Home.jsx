@@ -26,92 +26,97 @@ function Home() {
           </div>
         </div>
       </div>
+
       <div className=" bg-[#F6F7FA]">
-        <p className="my-10 text-center text-xl font-semibold">
+        <p className="p-5 text-center text-xl font-semibold sm:text-2xl md:text-4xl">
           Popular Categories
         </p>
-        <div className="grid grid-cols-2 justify-items-center gap-y-3 sm:grid-cols-4 md:grid-cols-5">
-          <div className="flex max-w-[100px] flex-col items-center gap-4 border px-8 py-4 shadow-xl">
-            <div className="h-10 w-10 rounded-full border bg-[#81c0b3] p-2">
+        <div className="mx-auto grid max-w-[1400px] grid-cols-2 place-content-center items-stretch gap-4 py-4 sm:grid-cols-4 md:grid-cols-5">
+          <div className="flex flex-col items-center gap-4 border px-8 py-4 shadow-xl">
+            <div className="flex h-[75px] w-[75px] items-center justify-center rounded-full border bg-[#81c0b3]">
               <img src="/assets/icon.png" />
             </div>
-            <p>Technology</p>
+            <p className="text-xl font-semibold">Technology</p>
           </div>
-          <div className="flex max-w-[100px] flex-col items-center gap-4 border px-8 py-4 shadow-xl">
-            <div className="h-10 w-10 rounded-full border bg-[#81c0b3] p-2">
+          <div className="flex  flex-col items-center gap-4 border px-8 py-4 shadow-xl">
+            <div className="flex h-[75px] w-[75px] items-center justify-center rounded-full border bg-[#81c0b3] p-2">
               <img src="/assets/icon.png" />
             </div>
-            <p>Technology</p>
+            <p className="text-xl font-semibold">Technology</p>
           </div>
-          <div className="flex max-w-[100px] flex-col items-center gap-4 border px-8 py-4 shadow-xl">
-            <div className="h-10 w-10 rounded-full border bg-[#81c0b3] p-2">
+          <div className="flex  flex-col items-center gap-4 border px-8 py-4 shadow-xl">
+            <div className="flex h-[75px] w-[75px] items-center justify-center rounded-full border bg-[#81c0b3] p-2">
               <img src="/assets/icon.png" />
             </div>
-            <p>Technology</p>
+            <p className="text-xl font-semibold">Technology</p>
           </div>
-          <div className="flex max-w-[100px] flex-col items-center gap-4 border px-8 py-4 shadow-xl">
-            <div className="h-10 w-10 rounded-full border bg-[#81c0b3] p-2">
+          <div className="flex  flex-col items-center gap-4 border px-8 py-4 shadow-xl">
+            <div className="flex h-[75px] w-[75px] items-center justify-center rounded-full border bg-[#81c0b3] p-2">
               <img src="/assets/icon.png" />
             </div>
-            <p>Technology</p>
+            <p className="text-xl font-semibold">Technology</p>
           </div>
-          <div className="flex max-w-[100px] flex-col items-center gap-4 border px-8 py-4 shadow-xl">
-            <div className="h-10 w-10 rounded-full border bg-[#81c0b3] p-2">
+          <div className="flex  flex-col items-center gap-4 border px-8 py-4 shadow-xl">
+            <div className="flex h-[75px] w-[75px] items-center justify-center rounded-full border bg-[#81c0b3] p-2">
               <img src="/assets/icon.png" />
             </div>
-            <p>Technology</p>
+            <p className="text-xl font-semibold">Technology</p>
           </div>
-          <div className="flex max-w-[100px] flex-col items-center gap-4 border px-8 py-4 shadow-xl">
-            <div className="h-10 w-10 rounded-full border bg-[#81c0b3] p-2">
+          <div className="flex  flex-col items-center gap-4 border px-8 py-4 shadow-xl">
+            <div className="flex h-[75px] w-[75px] items-center justify-center rounded-full border bg-[#81c0b3] p-2">
               <img src="/assets/icon.png" />
             </div>
-            <p>Technology</p>
+            <p className="text-xl font-semibold">Technology</p>
           </div>
-          <div className="flex max-w-[100px] flex-col items-center gap-4 border px-8 py-4 shadow-xl">
-            <div className="h-10 w-10 rounded-full border bg-[#81c0b3] p-2">
+          <div className="flex  flex-col items-center gap-4 border px-8 py-4 shadow-xl">
+            <div className="flex h-[75px] w-[75px] items-center justify-center rounded-full border bg-[#81c0b3] p-2">
               <img src="/assets/icon.png" />
             </div>
-            <p>Technology</p>
+            <p className="text-xl font-semibold">Technology</p>
           </div>
-          <div className="flex max-w-[100px] flex-col items-center gap-4 border px-8 py-4 shadow-xl">
-            <div className="h-10 w-10 rounded-full border bg-[#81c0b3] p-2">
+          <div className="flex flex-col items-center gap-4 border px-8 py-4 shadow-xl">
+            <div className="flex h-[75px] w-[75px] items-center justify-center rounded-full border bg-[#81c0b3] p-2">
               <img src="/assets/icon.png" />
             </div>
-            <p>Technology</p>
+            <p className="text-xl font-semibold">Technology</p>
           </div>
-          <div className="flex max-w-[100px] flex-col items-center gap-4 border px-8 py-4 shadow-xl">
-            <div className="h-10 w-10 rounded-full border bg-[#81c0b3] p-2">
+          <div className="flex flex-col items-center gap-4 border px-8 py-4 shadow-xl">
+            <div className="flex h-[75px] w-[75px] items-center justify-center rounded-full border bg-[#81c0b3] p-2">
               <img src="/assets/icon.png" />
             </div>
-            <p>Technology</p>
+            <p className="text-xl font-semibold">Technology</p>
           </div>
-          <div className="flex max-w-[100px] flex-col items-center gap-4 border px-8 py-4 shadow-xl">
-            <div className="h-10 w-10 rounded-full border bg-[#81c0b3] p-2">
+          <div className="flex flex-col items-center gap-4 border px-8 py-4 shadow-xl">
+            <div className="flex h-[75px] w-[75px] items-center justify-center rounded-full border bg-[#81c0b3] p-2">
               <img src="/assets/icon.png" />
             </div>
-            <p>Technology</p>
+            <p className="text-xl font-semibold">Technology</p>
           </div>
         </div>
       </div>
 
-      <div className=" my-10 flex flex-col justify-between gap-3 border px-6 py-4 shadow-2xl md:flex-row">
-        <div className="flex gap-4">
-          <div className="h-12 w-12 rounded-full bg-primary">
-            <p className="text-center text-xl font-bold text-white">R</p>
+      <div className="mx-[20px] mt-7 flex flex-col justify-between gap-3 px-6 py-4 shadow-2xl md:mx-[55px] md:flex-row">
+        <div className="flex flex-col gap-4 md:flex-row">
+          <div className="flex h-20 w-20 items-center justify-center self-center rounded-full bg-primary">
+            <p className="text-xl font-bold text-white md:text-4xl">R</p>
           </div>
-          <div>
-            <p>Match Company Limited</p>
-            <p className="font-bold">Fresher UI/UX Designer (3 Year Exp.)</p>
+          <div className="flex flex-col items-center gap-1 md:items-start">
+            <p className="text-xs sm:text-xl md:text-2xl">
+              Match Company Limited
+            </p>
+            <p className="text-xs font-bold sm:text-xl md:text-2xl">
+              Fresher UI/UX Designer (3 Year Exp.)
+            </p>
             <div className="flex items-center gap-3">
-              <p className="flex items-center">
+              <p className="flex items-center text-xs sm:text-xl md:text-2xl">
                 <CiLocationOn />
                 Nairobi, Kenya
               </p>
-              <p className="flex items-center">
+              <p className="flex items-center text-xs sm:text-xl md:text-2xl">
                 <IoTime />
                 Full Time
               </p>
-              <p>Ksh 150,000</p>
+              <p className="text-xs sm:text-xl md:text-2xl">Ksh 150,000</p>
             </div>
           </div>
         </div>
