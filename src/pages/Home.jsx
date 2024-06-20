@@ -6,8 +6,11 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5";
 function Home() {
   return (
     <>
-      <div className="h-screen bg-banner bg-cover bg-right bg-no-repeat sm:bg-right">
-        <div className="flex max-w-[250px] flex-col gap-4 p-4 sm:max-w-[450px] sm:p-6 md:max-w-[670px] md:p-9">
+      <div className="relative">
+        <div>
+          <img src="/assets/banner.png" className="max-w-full" />
+        </div>
+        <div className="absolute top-4 flex max-w-[300px] flex-col gap-4 p-4 sm:max-w-[400px] sm:p-6 md:top-10 md:max-w-[570px] md:p-9 lg:max-w-[670px]">
           <p className="text-2xl font-bold sm:text-3xl md:text-7xl">
             Find A <span className="text-primary"> Job</span> That{" "}
             <span className="text-primary"> Matches</span> Your Passion{" "}
